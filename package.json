@@ -1,0 +1,23 @@
+{
+  "name": "index-2021",
+  "version": "1.0.0",
+  "description": "Independent Space Index 2021",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env ELEVENTY_ENV=dev npx @11ty/eleventy --serve --quiet & mix watch",
+    "build": "cross-env ELEVENTY_ENV=prod npx @11ty/eleventy mix",
+    "seed": "cross-env ELEVENTY_ENV=seed eleventy"
+  },
+  "author": "bruno mokross",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.19",
+    "sass": "^1.34.1",
+    "sass-loader": "^11.1.1"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}

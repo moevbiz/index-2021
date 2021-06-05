@@ -1,0 +1,50 @@
+[
+    {
+        "spaceId": "spaces/zentrale",
+        "uid": "zentrale",
+        "name": "Zentrale",
+        "district": 16,
+        "address": "Neulerchenfelder Straße 52",
+        "website": "http://zentrale.jetzt/",
+        "prettyurl": "zentrale.jetzt",
+        "inactive": true,
+        "lat": 48.21163899999999813417161931283771991729736328125,
+        "lng": 16.332820999999999145302354008890688419342041015625
+    },
+    {
+        "spaceId": "spaces/white-dwarf-projects",
+        "uid": "white-dwarf-projects",
+        "name": "White Dwarf Projects",
+        "district": 3,
+        "address": "Seidlgasse 14",
+        "website": "http://www.whitedwarfmagazine.eu/",
+        "prettyurl": "whitedwarfmagazine.eu",
+        "inactive": false,
+        "lat": 48.2071839999999980364009388722479343414306640625,
+        "lng": 16.3901800000000008594724931754171848297119140625
+    },
+    {
+        "spaceId": "spaces/wellwellwell",
+        "uid": "wellwellwell",
+        "name": "wellwellwell",
+        "district": 2,
+        "address": "Mittersteig 2a",
+        "website": "http://wellwellwell.at",
+        "prettyurl": "wellwellwell.at",
+        "inactive": true,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "spaceId": "spaces/we-dey-x-space",
+        "uid": "we-dey-x-space",
+        "name": "WE DEY X SPACE",
+        "district": 7,
+        "address": "Kandlgasse 24",
+        "website": "https://we-dey.in",
+        "prettyurl": "we-dey.in",
+        "inactive": true,
+        "lat": 48.2029050000000012232703738845884799957275390625,
+        "lng": 16.34206199999999853389454074203968048095703125
+    }
+]
