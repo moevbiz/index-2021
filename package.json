@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env ELEVENTY_ENV=dev npx @11ty/eleventy --serve --quiet & mix watch",
     "fresh": "rm -rf docs",
-    "build": "cross-env ELEVENTY_ENV=prod npx @11ty/eleventy && mix",
+    "build": "mix && cross-env ELEVENTY_ENV=prod npx @11ty/eleventy",
     "seed": "cross-env ELEVENTY_ENV=seed eleventy"
   },
   "author": "bruno mokross",
