@@ -1,5 +1,6 @@
 const axios  = require('axios');
 const fs = require("fs");
+require('dotenv').config();
 
 // Handy to save the results to a local file
 // to prime the dev data source
@@ -43,18 +44,27 @@ module.exports = () => {
   return new Promise((resolve, reject) => {
 
     Promise.all([getIndex(), getParticipants()])
-      .then(([index, participants]) => {
-        participants.forEach((participant, i) => {
-          let spaceData = index.find(space => space.name === participant.gsx$space.$t)
-        });
+      .then(([index, googleSheet]) => {
+        var data = {
+          entries: [],
+        };
+
+        // participants.forEach((participant, i) => {
+        //   let spaceData = index.find(space => space.name === participant.gsx$space.$t);
+        //   let entry = {
+        //     name: 'Hello'
+        //   }
+        // });
+        console.log(googleSheet.data.feed.entry);
+
+        let json = JSON.stringify(data, null, 4)
 
         // stash the data locally for developing without
         // needing to hit the API each time.
-        seed(JSON.stringify(data, null, 4), `${__dirname}/../dev/sheet.json`);
+        seed(json, `${__dirname}/../dev/sheet.json`);
 
         // resolve the promise and return the data
-        resolve(data);
-
+        resolve(json);
       })
 
       // handle errors
