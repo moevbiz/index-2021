@@ -81,7 +81,7 @@ module.exports = () => {
 
         // stash the data locally for developing without
         // needing to hit the API each time.
-        seed(json, `${__dirname}/../dev/sheet.json`);
+        seed(json, `${__dirname}/../dev/spaces.json`);
 
         // resolve the promise and return the data
         resolve(json);
