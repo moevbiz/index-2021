@@ -1,50 +1,110 @@
 [
     {
-        "spaceId": "spaces/zentrale",
-        "uid": "zentrale",
-        "name": "Zentrale",
-        "district": 16,
-        "address": "Neulerchenfelder Straße 52",
-        "website": "http://zentrale.jetzt/",
-        "prettyurl": "zentrale.jetzt",
-        "inactive": true,
-        "lat": 48.21163899999999813417161931283771991729736328125,
-        "lng": 16.332820999999999145302354008890688419342041015625
+        "spaceName": "Laurenz",
+        "spaceID": "laurenz",
+        "eventTitle": "Živa Drvarič and Martin Schlögl",
+        "eventDetails": "",
+        "spaceData": {
+            "spaceId": "spaces/laurenz",
+            "uid": "laurenz",
+            "name": "Laurenz",
+            "district": 15,
+            "address": "Löhrgasse 9",
+            "website": "https://www.laurenz-space.com",
+            "prettyurl": "laurenz-space.com",
+            "inactive": false,
+            "lat": 48.198839,
+            "lng": 16.336867
+        }
     },
     {
-        "spaceId": "spaces/white-dwarf-projects",
-        "uid": "white-dwarf-projects",
-        "name": "White Dwarf Projects",
-        "district": 3,
-        "address": "Seidlgasse 14",
-        "website": "http://www.whitedwarfmagazine.eu/",
-        "prettyurl": "whitedwarfmagazine.eu",
-        "inactive": false,
-        "lat": 48.2071839999999980364009388722479343414306640625,
-        "lng": 16.3901800000000008594724931754171848297119140625
+        "spaceName": "Guimarães",
+        "spaceID": "guimaraes",
+        "eventTitle": "João Jr.",
+        "eventDetails": "Gijs Milius, Sophie Nys",
+        "spaceData": {
+            "spaceId": "spaces/guimaraes",
+            "uid": "guimaraes",
+            "name": "Guimarães",
+            "district": 6,
+            "address": "Linke Wienzeile 36 / 1c",
+            "website": "http://www.guimaraes.info/",
+            "prettyurl": "guimaraes.info",
+            "inactive": false,
+            "lat": 48.19772,
+            "lng": 16.36032
+        }
     },
     {
-        "spaceId": "spaces/wellwellwell",
-        "uid": "wellwellwell",
-        "name": "wellwellwell",
-        "district": 2,
-        "address": "Mittersteig 2a",
-        "website": "http://wellwellwell.at",
-        "prettyurl": "wellwellwell.at",
-        "inactive": true,
-        "lat": 0,
-        "lng": 0
+        "spaceName": "Llllll",
+        "spaceID": "llllll",
+        "eventTitle": "Jamais vu 2",
+        "eventDetails": "curated by Liudmila Kirsanova, with works by Maximiliane Leni Armann, Sarah Pedde, Darja Shatalova",
+        "spaceData": {
+            "spaceId": "spaces/llllll",
+            "uid": "llllll",
+            "name": "Llllll",
+            "district": 3,
+            "address": "Seidlgasse 14",
+            "website": "http://www.LLLLLL.at",
+            "prettyurl": "LLLLLL.at",
+            "inactive": false,
+            "lat": 48.207243,
+            "lng": 16.390165
+        }
     },
     {
-        "spaceId": "spaces/we-dey-x-space",
-        "uid": "we-dey-x-space",
-        "name": "WE DEY X SPACE",
-        "district": 7,
-        "address": "Kandlgasse 24",
-        "website": "https://we-dey.in",
-        "prettyurl": "we-dey.in",
-        "inactive": true,
-        "lat": 48.2029050000000012232703738845884799957275390625,
-        "lng": 16.34206199999999853389454074203968048095703125
+        "spaceName": "hoast",
+        "spaceID": "hoast",
+        "eventTitle": "Past the Time Between",
+        "eventDetails": "Katrin Plavčak, Daniel Massow and Charlotte Mumm",
+        "spaceData": {
+            "spaceId": "spaces/hoast",
+            "uid": "hoast",
+            "name": "hoast",
+            "district": 2,
+            "address": "Große Sperlgasse 25",
+            "website": "http://www.hoast.net/",
+            "prettyurl": "hoast.net",
+            "inactive": false,
+            "lat": 48.217783,
+            "lng": 16.378136
+        }
+    },
+    {
+        "spaceName": "GOMO",
+        "spaceID": "gomo",
+        "eventTitle": "The Desert Has Three Layers, Two of Fruit and One of Cream",
+        "eventDetails": "Carolin Israel und Lukas Hochrieder",
+        "spaceData": {
+            "spaceId": "spaces/gomo",
+            "uid": "gomo",
+            "name": "GOMO",
+            "district": 2,
+            "address": "Volkertplatz 8",
+            "website": "http://www.gomoartspace.com/",
+            "prettyurl": "gomoartspace.com",
+            "inactive": false,
+            "lat": 48.22289,
+            "lng": 16.3874
+        }
+    },
+    {
+        "spaceName": "THE CLUB CLUB",
+        "spaceID": "the-club-club",
+        "eventTitle": "INTÉRIEUR – A Tribute To Erwin Hauer",
+        "eventDetails": "Erwin Hauer\nUlrike Johannsen\nSophia Latysheva\nStefan Lux\nHeti Prack\nAlmut Reichenbach\nPeter Sandbichler\nFabian Seiz\nEsther Stocker\nBarbara Sturm\nNazim Ünal Yilmaz\nAlexandra Sascha Zaitseva",
+        "spaceData": {
+            "spaceId": "spaces/the-club-club",
+            "uid": "the-club-club",
+            "name": "THE CLUB CLUB",
+            "district": 15,
+            "address": "Alliogasse 1",
+            "website": "https://www.clubclub.wien/",
+            "prettyurl": "clubclub.wien",
+            "inactive": false,
+            "lat": 48.20064,
+            "lng": 16.32833
+        }
     }
 ]

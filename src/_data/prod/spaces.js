@@ -77,7 +77,7 @@ module.exports = () => {
           data.entries.push(entry);
         });
 
-        let json = JSON.stringify(data, null, 4)
+        let json = JSON.stringify(data.entries, null, 4)
 
         // stash the data locally for developing without
         // needing to hit the API each time.
