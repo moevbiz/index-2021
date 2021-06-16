@@ -28,6 +28,14 @@ function getParticipants() {
   return axios.get(googleSheetUrl);
 }
 
+function readFromSheet(sheet, index, value) {
+  return sheet.data.feed.entry[index]['gsx$' + value].$t;
+}
+
+function readEntry(entry, value) {
+  return entry['gsx$' + value].$t;
+}
+
 const yearDisplay = (item, years) => {
   if (years.includes(item.gsx$year.$t)) {
     return false
@@ -49,13 +57,17 @@ module.exports = () => {
           entries: [],
         };
 
-        // participants.forEach((participant, i) => {
-        //   let spaceData = index.find(space => space.name === participant.gsx$space.$t);
-        //   let entry = {
-        //     name: 'Hello'
-        //   }
-        // });
-        console.log(googleSheet.data.feed.entry);
+        let participants = googleSheet.data.feed.entry;
+
+        participants.forEach((participant, i) => {
+          let spaceData = index.data.find(space => space.name === readEntry(participant, 'space'));
+          let entry = {
+            title: readEntry(participant, 'title'),
+            space: readEntry(participant, 'space'),
+            address: spaceData ? spaceData.address : readEntry(participant, 'address'),
+          }
+          data.entries.push(entry);
+        });
 
         let json = JSON.stringify(data, null, 4)
 
