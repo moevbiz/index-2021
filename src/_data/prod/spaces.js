@@ -67,7 +67,7 @@ module.exports = () => {
           let spaceData = index.data.find(space => space.uid === readEntry(participant, 'spaceid'));
 
           let entry = {
-            spaceName: spaceData ? spaceData.name : (participant, 'spacename'),
+            spaceName: spaceData ? spaceData.name : readEntry(participant, 'spacename'),
             spaceID: readEntry(participant, 'spaceid'),
             eventTitle: readEntry(participant, 'eventtitle'),
             eventDetails: readEntry(participant, 'eventdetails'),
