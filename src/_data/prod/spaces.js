@@ -29,11 +29,13 @@ function getParticipants() {
 }
 
 function readFromSheet(sheet, index, value) {
-  return sheet.data.feed.entry[index]['gsx$' + value].$t;
+  let val = sheet.data.feed.entry[index]['gsx$' + value];
+  return val ? val.$t : '';
 }
 
 function readEntry(entry, value) {
-  return entry['gsx$' + value].$t;
+  let val = entry['gsx$' + value];
+  return val ? val.$t : '';
 }
 
 const yearDisplay = (item, years) => {
@@ -60,12 +62,18 @@ module.exports = () => {
         let participants = googleSheet.data.feed.entry;
 
         participants.forEach((participant, i) => {
-          let spaceData = index.data.find(space => space.name === readEntry(participant, 'space'));
+          if (readEntry(participant, 'public') !== 'TRUE') return;
+
+          let spaceData = index.data.find(space => space.uid === readEntry(participant, 'spaceid'));
+
           let entry = {
-            title: readEntry(participant, 'title'),
-            space: readEntry(participant, 'space'),
-            address: spaceData ? spaceData.address : readEntry(participant, 'address'),
+            spaceName: spaceData ? spaceData.name : (participant, 'spacename'),
+            spaceID: readEntry(participant, 'spaceid'),
+            eventTitle: readEntry(participant, 'eventtitle'),
+            eventDetails: readEntry(participant, 'eventdetails'),
+            spaceData,
           }
+
           data.entries.push(entry);
         });
 

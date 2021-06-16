@@ -1,244 +1,112 @@
 {
     "entries": [
         {
-            "title": "ada is … hund und herr",
-            "space": "ada",
-            "address": "Wattgasse 16/6"
+            "spaceName": "Laurenz",
+            "spaceID": "laurenz",
+            "eventTitle": "Živa Drvarič and Martin Schlögl",
+            "eventDetails": "",
+            "spaceData": {
+                "spaceId": "spaces/laurenz",
+                "uid": "laurenz",
+                "name": "Laurenz",
+                "district": 15,
+                "address": "Löhrgasse 9",
+                "website": "https://www.laurenz-space.com",
+                "prettyurl": "laurenz-space.com",
+                "inactive": false,
+                "lat": 48.198839,
+                "lng": 16.336867
+            }
         },
         {
-            "title": "Video Screening: Fleshlight - Elizaveta Kapustina, Eva Yurková und Sophie Esslinger",
-            "space": "die Schöne",
-            "address": "Kuffnergasse 7"
+            "spaceName": "Guimarães",
+            "spaceID": "guimaraes",
+            "eventTitle": "João Jr.",
+            "eventDetails": "Gijs Milius, Sophie Nys",
+            "spaceData": {
+                "spaceId": "spaces/guimaraes",
+                "uid": "guimaraes",
+                "name": "Guimarães",
+                "district": 6,
+                "address": "Linke Wienzeile 36 / 1c",
+                "website": "http://www.guimaraes.info/",
+                "prettyurl": "guimaraes.info",
+                "inactive": false,
+                "lat": 48.19772,
+                "lng": 16.36032
+            }
         },
         {
-            "title": "more of the same",
-            "space": "flat1",
-            "address": "Radetzkystrasse 4"
+            "spaceName": "Llllll",
+            "spaceID": "llllll",
+            "eventTitle": "Jamais vu 2",
+            "eventDetails": "curated by Liudmila Kirsanova, with works by Maximiliane Leni Armann, Sarah Pedde, Darja Shatalova",
+            "spaceData": {
+                "spaceId": "spaces/llllll",
+                "uid": "llllll",
+                "name": "Llllll",
+                "district": 3,
+                "address": "Seidlgasse 14",
+                "website": "http://www.LLLLLL.at",
+                "prettyurl": "LLLLLL.at",
+                "inactive": false,
+                "lat": 48.207243,
+                "lng": 16.390165
+            }
         },
         {
-            "title": "Half-lit World",
-            "space": "Foundation",
-            "address": "Hainburgerstraße 47/1"
+            "spaceName": "hoast",
+            "spaceID": "hoast",
+            "eventTitle": "Past the Time Between",
+            "eventDetails": "Katrin Plavčak, Daniel Massow and Charlotte Mumm",
+            "spaceData": {
+                "spaceId": "spaces/hoast",
+                "uid": "hoast",
+                "name": "hoast",
+                "district": 2,
+                "address": "Große Sperlgasse 25",
+                "website": "http://www.hoast.net/",
+                "prettyurl": "hoast.net",
+                "inactive": false,
+                "lat": 48.217783,
+                "lng": 16.378136
+            }
         },
         {
-            "title": "Georg Pinteritsch. Am Beispiel einer Hasenjagd",
-            "space": "Global International",
-            "address": "Gerlgasse 17"
+            "spaceName": "GOMO",
+            "spaceID": "gomo",
+            "eventTitle": "The Desert Has Three Layers, Two of Fruit and One of Cream",
+            "eventDetails": "Carolin Israel und Lukas Hochrieder",
+            "spaceData": {
+                "spaceId": "spaces/gomo",
+                "uid": "gomo",
+                "name": "GOMO",
+                "district": 2,
+                "address": "Volkertplatz 8",
+                "website": "http://www.gomoartspace.com/",
+                "prettyurl": "gomoartspace.com",
+                "inactive": false,
+                "lat": 48.22289,
+                "lng": 16.3874
+            }
         },
         {
-            "title": "PATIO",
-            "space": "GOMO",
-            "address": "Volkertplatz 8"
-        },
-        {
-            "title": "They lifted me into the sun again and packed my skull with cinnamon",
-            "space": "Guimarães",
-            "address": "Linke Wienzeile 36 / 1c"
-        },
-        {
-            "title": "Hito Steyerl: In Free Fall",
-            "space": "hoast",
-            "address": "Große Sperlgasse 25"
-        },
-        {
-            "title": "The Phantom Moves Through Space and Through Different Bodies",
-            "space": "Kevin Space",
-            "address": "Volkertplatz 14"
-        },
-        {
-            "title": "\"IN THE DEEP LIGHTNESS\" mit EVA EICHINGER, ELITSA AND THE FIR TREE, TINA HAINSCHWANG, VANJA KRAJNC, ILONA RAINER-PRANTER",
-            "space": "Kluckyland",
-            "address": "Othmargasse 34"
-        },
-        {
-            "title": "Thomas Hörl: Curtain Walls curated by Peter Kozek",
-            "space": "Kulturdrogerie",
-            "address": "Gentzgasse 86-88"
-        },
-        {
-            "title": "Hide and Seek Show and Tell",
-            "space": "Kunstraum am Schauplatz",
-            "address": "Praterstrasse 42, 2. Innenhof"
-        },
-        {
-            "title": "Christoph Srb - Isolationszelle",
-            "space": "KUNSTZELLE",
-            "address": "Währinger Str. 59"
-        },
-        {
-            "title": "Hui Ye: \"Songs of Oblivion: Prelude\"",
-            "space": "Mz*Baltazar's Laboratory",
-            "address": "Wallensteinstraße 38-40/8"
-        },
-        {
-            "title": "Live sound performance with audio archive of traditional Tao singings ",
-            "space": "Mz*Baltazar's Laboratory",
-            "address": "Wallensteinstraße 38-40/8"
-        },
-        {
-            "title": "Koloman Kann - Waiting for a story, hoping for a song",
-            "space": "New Jörg",
-            "address": "Jägerstraße 56"
-        },
-        {
-            "title": "HAIKU UND LICHT",
-            "space": "Pferd",
-            "address": "Medwedweg 3"
-        },
-        {
-            "title": "Tazeen Qayyum",
-            "space": "philomena+",
-            "address": "Heinestraße 40/7"
-        },
-        {
-            "title": "4649 at Pina",
-            "space": "Pina",
-            "address": "Große Neugasse 44"
-        },
-        {
-            "title": "Exhibition and Performances by Thomas Geiger & Johanna Charlotte Trede",
-            "space": "Size Matters",
-            "address": "Margaretenstraße 110"
-        },
-        {
-            "title": "Noële Ody: ohne Hand und Fuß ",
-            "space": "Stiege 13",
-            "address": "Jägerstrasse 62-64"
-        },
-        {
-            "title": "Today Is Not Happening",
-            "space": "Suzie Shride",
-            "address": "Girardigasse 10"
-        },
-        {
-            "title": "ECHO",
-            "space": "THE CLUB CLUB",
-            "address": "Alliogasse 1"
-        },
-        {
-            "title": "LIQUID COMPANIONS",
-            "space": "TIM NOLAS",
-            "address": "Skodagasse 26"
-        },
-        {
-            "title": "A Night with friends",
-            "space": "VBKÖ",
-            "address": "Maysedergasse 2"
-        },
-        {
-            "title": "Finissage – Paul Spengemann: \"WELCOME UNIVERSE\"",
-            "space": "WAF Galerie",
-            "address": "Schadekgasse 6-8"
-        },
-        {
-            "title": "WDM#17 W A A G E with SORT presenting Lisa Kainz",
-            "space": "White Dwarf Projects",
-            "address": "Seidlgasse 14"
-        },
-        {
-            "title": "Performative Screenings #67: Charlotte Eifler, Our Mothers were Computers",
-            "space": "school",
-            "address": "Grüngasse 22"
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
-        },
-        {
-            "title": "",
-            "space": "",
-            "address": ""
+            "spaceName": "THE CLUB CLUB",
+            "spaceID": "the-club-club",
+            "eventTitle": "INTÉRIEUR – A Tribute To Erwin Hauer",
+            "eventDetails": "Erwin Hauer\nUlrike Johannsen\nSophia Latysheva\nStefan Lux\nHeti Prack\nAlmut Reichenbach\nPeter Sandbichler\nFabian Seiz\nEsther Stocker\nBarbara Sturm\nNazim Ünal Yilmaz\nAlexandra Sascha Zaitseva",
+            "spaceData": {
+                "spaceId": "spaces/the-club-club",
+                "uid": "the-club-club",
+                "name": "THE CLUB CLUB",
+                "district": 15,
+                "address": "Alliogasse 1",
+                "website": "https://www.clubclub.wien/",
+                "prettyurl": "clubclub.wien",
+                "inactive": false,
+                "lat": 48.20064,
+                "lng": 16.32833
+            }
         }
     ]
 }
