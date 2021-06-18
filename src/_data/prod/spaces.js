@@ -38,18 +38,6 @@ function readEntry(entry, value) {
   return val ? val.$t : '';
 }
 
-const yearDisplay = (item, years) => {
-  if (years.includes(item.gsx$year.$t)) {
-    return false
-  } else {
-    if (item.gsx$visible.$t === "TRUE") {
-      years.push(item.gsx$year.$t)
-      return true
-    }
-    return false
-  }
-}
-
 module.exports = () => {
   return new Promise((resolve, reject) => {
 
@@ -76,15 +64,13 @@ module.exports = () => {
 
           data.entries.push(entry);
         });
-
-        let json = JSON.stringify(data.entries, null, 4)
-
+        
         // stash the data locally for developing without
         // needing to hit the API each time.
-        seed(json, `${__dirname}/../dev/spaces.json`);
+        seed(JSON.stringify(data.entries, null, 4), `${__dirname}/../dev/spaces.json`);
 
         // resolve the promise and return the data
-        resolve(json);
+        resolve(data.entries);
       })
 
       // handle errors

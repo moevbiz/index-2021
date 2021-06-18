@@ -2,10 +2,12 @@
 permalink: /spaces.json
 ---
 [
-  {% for space in spaces  %}
-    {
-      "name": "{{ space.name }}",
-      "website": "{{ space.website }}"
-    }{{ '' if loop.last else ',' }}
-  {% endfor  %}
+{% for space in spaces %}
+  {
+    "lat": "{{ space.spaceData.lat }}",
+    "lng": "{{ space.spaceData.lng }}",
+    "uid": "{{ space.spaceData.uid }}",
+    "name": "{{ space.spaceData.name }}"
+  }{{ '' if loop.last else ',' }}
+{% endfor  %}
 ]

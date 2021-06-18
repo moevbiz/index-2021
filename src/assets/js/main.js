@@ -1,9 +1,7 @@
-import { appHeight, sub } from "./tools";
+import { appHeight } from "./tools";
+import { App } from "./components/App";
+import { NewsletterForm } from "./components/NewsletterForm";
 
-window.addEventListener('resize', appHeight);
-appHeight();
+const newsl = new NewsletterForm('.signup-form');
 
-const nlForm = document.querySelector('.signup-form');
-nlForm.addEventListener('submit', (e) => {
-    sub(e);
-})
+const app = new App();

@@ -8,17 +8,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <a href="/">
+                <li>
+                    <i class="la la-map"></i>
+                </li>
+            </a>
+            <a href="/list">
+                <li>
+                    <i class="la la-list"></i>
+                </li>
+            </a>
+            <a href="/info">
+                <li>
+                    <i class="la la-info"></i>
+                </li>
+            </a>
+        </ul>
+    </nav>
     <div id="logo">
         <figure>
-            <img src="assets/images/hand.svg" alt="Independent Space Index 2021" srcset="">
+            <img src="/assets/images/hand.svg" alt="Independent Space Index 2021" srcset="">
         </figure>
     </div>
-    <main>
+    <div id="map"></div>
+    <main id="swup" class="transition-slide" data-slug="{{ page.fileSlug }}">
         {{ content | safe }}
     </main>
 </body>
-<script src="assets/js/scripts.js"></script>
+<script src="/assets/js/scripts.js"></script>
 </html>

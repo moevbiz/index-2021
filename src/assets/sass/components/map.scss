@@ -1,0 +1,76 @@
+#map {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(247,196,195);
+}
+
+.marker-icon {
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    span {
+        font-size: 1rem;
+        position: absolute;
+        z-index: 10000;
+        left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: none;
+        width: 300px;
+    }
+
+    &:hover {
+        span {
+            display: block;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        box-sizing: border-box;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        // background: red;
+    }
+
+    &-selected {
+        background: black;
+        &::after {
+            background: transparent;
+            border: 2px solid black;
+            animation: selectIcon .2s linear;
+        }
+    }
+}
+
+@keyframes selectIcon {
+    0% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.activeArea { 
+    border: 1px solid green;
+    pointer-events: none;
+    position: fixed;
+    z-index: 10000; 
+    top: 0; 
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    [data-use-active-area="true"] & {
+        left: 40vw;  
+        width: 60vw;
+        // border: 2px solid green;
+    }
+}

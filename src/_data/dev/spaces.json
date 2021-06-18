@@ -90,6 +90,24 @@
         }
     },
     {
+        "spaceName": "Pina",
+        "spaceID": "pina",
+        "eventTitle": "But I doubt, I tremble, I see (shaking edges) and the wild thorn tree",
+        "eventDetails": "Giuliana Rosso & Rory Pilgrim, curated by Caterina Avataneo",
+        "spaceData": {
+            "spaceId": "spaces/pina",
+            "uid": "pina",
+            "name": "Pina",
+            "district": 4,
+            "address": "Große Neugasse 44",
+            "website": "https://pinavienna.eu",
+            "prettyurl": "pinavienna.eu",
+            "inactive": false,
+            "lat": 48.194289,
+            "lng": 16.36292
+        }
+    },
+    {
         "spaceName": "THE CLUB CLUB",
         "spaceID": "the-club-club",
         "eventTitle": "INTÉRIEUR – A Tribute To Erwin Hauer",
