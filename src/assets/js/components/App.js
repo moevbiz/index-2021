@@ -147,9 +147,7 @@ export class App {
             }, {once: true})
         })
 
-        let tapTolerance = 500;
-        let literallyJustTapped = false;
-
+        
         const markerClickHandler = (m, e) => {
             if (window.location.pathname.includes('/list')) {
                 this.selectSpace(m.options.title);
@@ -161,13 +159,17 @@ export class App {
                 })
             }
         }
-
+        
+        let tapTolerance = 200;
+        let literallyJustTapped = false;
+        
         this.$map.markers.forEach(m => {
             m.on('click', (e) => {
                 if (window.innerWidth > 660) {
                     markerClickHandler(m, e);
                 } else {
                     if (literallyJustTapped) return;
+                    literallyJustTapped = true;
                     this.$map.markers.forEach(m => {
                         if (m == e.target) return;
                         m._icon.classList.remove('marker-icon-selected');
@@ -179,6 +181,8 @@ export class App {
                         markerClickHandler(m, e);
                         m._icon.classList.remove('is-clicked-once');
                     }
+
+                    // fix safari double click/tap bug
                     window.setTimeout(() => {
                         literallyJustTapped = false;
                     }, tapTolerance);
