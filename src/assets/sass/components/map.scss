@@ -1,3 +1,9 @@
+.leaflet-control-attribution a {
+    color: inherit;
+    border-bottom: 1px dotted;
+    font-size: 9px;
+}
+
 #map {
     width: 100vw;
     height: 100vh;
@@ -45,22 +51,24 @@
         &::after {
             background: transparent;
             border: 2px solid black;
-            animation: selectIcon .2s linear;
+            animation: selectIcon .3s linear;
         }
     }
 }
 
 @keyframes selectIcon {
     0% {
-        transform: scale(3);
+        transform: scale(4);
+        opacity: 0;
     }
     100% {
         transform: scale(1);
+        opacity: 1;
     }
 }
 
 .activeArea { 
-    border: 1px solid green;
+    // border: 1px solid green;
     pointer-events: none;
     position: fixed;
     z-index: 10000; 
@@ -68,9 +76,11 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    [data-use-active-area="true"] & {
-        left: 40vw;  
-        width: 60vw;
-        // border: 2px solid green;
+    
+    @media (min-width: $mob) {
+        [data-use-active-area="true"] & {
+            left: 40vw;  
+            width: 60vw;
+        }
     }
 }

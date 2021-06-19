@@ -1,5 +1,9 @@
 [data-slug="list"] {
-    max-width: 40vw;
+    @media (min-width: $mob) {
+        & {
+            max-width: 40vw;
+        }
+    }
 }
 
 .spaces-container {
@@ -25,7 +29,12 @@
         }
 
         h1 {
-            font-size: 2.5vw;
+            font-size: 1.8rem;
+            @media (min-width: 900px) {
+                & {
+                    font-size: 2.5vw;
+                }
+            }
             margin-bottom: 1rem;
             font-family: sans-serif;
             &::before {
@@ -38,11 +47,33 @@
                 background: red;
             }
         }
+        
         &.is-selected {
+            
             h1::before {
                 background: black;
             }
             background: rgba(255,255,255,0.5);
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+        }
+
+        address {
+            font-family: monospace;
+        }
+
+        &__event-title {
+            font-style: italic;
+            margin-bottom: .4rem;
+        }
+
+        &__text-content {
+            max-width: 60ch;
+            font-size: 1.2rem;
+        }
+
+        &__event-details {
+            text-indent: 1rem;
         }
     }
 }

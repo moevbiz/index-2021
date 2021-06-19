@@ -4,6 +4,7 @@
         "spaceID": "laurenz",
         "eventTitle": "Živa Drvarič and Martin Schlögl",
         "eventDetails": "",
+        "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/laurenz",
             "uid": "laurenz",
@@ -22,6 +23,7 @@
         "spaceID": "guimaraes",
         "eventTitle": "João Jr.",
         "eventDetails": "Gijs Milius, Sophie Nys",
+        "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/guimaraes",
             "uid": "guimaraes",
@@ -40,6 +42,7 @@
         "spaceID": "llllll",
         "eventTitle": "Jamais vu 2",
         "eventDetails": "curated by Liudmila Kirsanova, with works by Maximiliane Leni Armann, Sarah Pedde, Darja Shatalova",
+        "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/llllll",
             "uid": "llllll",
@@ -58,6 +61,7 @@
         "spaceID": "hoast",
         "eventTitle": "Past the Time Between",
         "eventDetails": "Katrin Plavčak, Daniel Massow and Charlotte Mumm",
+        "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/hoast",
             "uid": "hoast",
@@ -72,10 +76,30 @@
         }
     },
     {
+        "spaceName": "New Jörg",
+        "spaceID": "new-joerg",
+        "eventTitle": "SALON DAGOBERT",
+        "eventDetails": "Heti Prack",
+        "eventWebsite": "https://newjoerg.at/exhibitions/heti-salon-dagobert",
+        "spaceData": {
+            "spaceId": "spaces/new-joerg",
+            "uid": "new-joerg",
+            "name": "New Jörg",
+            "district": 20,
+            "address": "Jägerstraße 56",
+            "website": "http://www.newjoerg.at/",
+            "prettyurl": "newjoerg.at",
+            "inactive": false,
+            "lat": 48.234304,
+            "lng": 16.370395
+        }
+    },
+    {
         "spaceName": "GOMO",
         "spaceID": "gomo",
         "eventTitle": "The Desert Has Three Layers, Two of Fruit and One of Cream",
         "eventDetails": "Carolin Israel und Lukas Hochrieder",
+        "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/gomo",
             "uid": "gomo",
@@ -94,6 +118,7 @@
         "spaceID": "pina",
         "eventTitle": "But I doubt, I tremble, I see (shaking edges) and the wild thorn tree",
         "eventDetails": "Giuliana Rosso & Rory Pilgrim, curated by Caterina Avataneo",
+        "eventWebsite": "https://pinavienna.eu/exhibitions/but-i-doubt-i-tremble-i-see-shaking-edges-and-the-wild-thorn-tree",
         "spaceData": {
             "spaceId": "spaces/pina",
             "uid": "pina",
@@ -111,7 +136,8 @@
         "spaceName": "THE CLUB CLUB",
         "spaceID": "the-club-club",
         "eventTitle": "INTÉRIEUR – A Tribute To Erwin Hauer",
-        "eventDetails": "Erwin Hauer\nUlrike Johannsen\nSophia Latysheva\nStefan Lux\nHeti Prack\nAlmut Reichenbach\nPeter Sandbichler\nFabian Seiz\nEsther Stocker\nBarbara Sturm\nNazim Ünal Yilmaz\nAlexandra Sascha Zaitseva",
+        "eventDetails": "Erwin Hauer, Ulrike Johannsen, Sophia Latysheva, Stefan Lux, Heti Prack, Almut Reichenbach, Peter Sandbichler, Fabian Seiz, Esther Stocker, Barbara Sturm, Nazim Ünal Yilmaz, Alexandra Sascha Zaitseva",
+        "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/the-club-club",
             "uid": "the-club-club",
@@ -123,6 +149,25 @@
             "inactive": false,
             "lat": 48.20064,
             "lng": 16.32833
+        }
+    },
+    {
+        "spaceName": "MOTHERBOARD",
+        "spaceID": "motherboard",
+        "eventTitle": "LEBHAFTE MATERIE",
+        "eventDetails": "Julia Belova, Malin Bülow, Vera Klimentyeva, Laura Pöld, Sarah Sternat, Sophia Süssmilch, Stephanie Winter",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/motherboard",
+            "uid": "motherboard",
+            "name": "MOTHERBOARD",
+            "district": 2,
+            "address": "Castellezgasse 36-38",
+            "website": "https://www.instagram.com/motherboard2.0/",
+            "prettyurl": "@motherboard2.0",
+            "inactive": false,
+            "lat": 48.223721,
+            "lng": 16.381981
         }
     }
 ]

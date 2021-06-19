@@ -9,12 +9,16 @@ layout: default
         <div class="space" id="{{space.spaceData.uid}}">
             <h1 class="space__title">{{ space.spaceName }}</h1>
             <address class="space__address">
-                <i class="la la-map-marker"></i> {{space.spaceData.address}}, {{ space.spaceData.district | plz }} Vienna<br>
-                <i class="las la-external-link-alt"></i> <a href="{{ space.spaceData.website }}" target="_blank">{{ space.spaceData.prettyurl }}</a>
+                <i class="la la-map-marker"></i> {{space.spaceData.address}}, {{ space.spaceData.district | plz }} Vienna
+            </address>
+            <address class="space__address">
+                <i class="las la-link"></i> <a href="{{ space.spaceData.website }}" target="_blank">{{ space.spaceData.prettyurl }}</a>
             </address>
             <br>
-            <h2 class="space__event-title">{{space.eventTitle}}</h2>
-            <p>{{ space.eventDetails }}</p>
+            <div class="space__text-content">
+                <h2 class="space__event-title">{{space.eventTitle}}</h2>
+                <p class="space__event-details">{{ space.eventDetails }}</p>
+            </div>
         </div>
     {% endfor %}
     </ul>

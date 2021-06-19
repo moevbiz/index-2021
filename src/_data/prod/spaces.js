@@ -59,6 +59,7 @@ module.exports = () => {
             spaceID: readEntry(participant, 'spaceid'),
             eventTitle: readEntry(participant, 'eventtitle'),
             eventDetails: readEntry(participant, 'eventdetails'),
+            eventWebsite: readEntry(participant, 'eventwebsite'),
             spaceData,
           }
 

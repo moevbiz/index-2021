@@ -1,0 +1,50 @@
+.signup-form-container {
+    // padding: 1.5rem;
+    width: 100vw;
+    z-index: 100000;
+    display: flex;
+
+    form {
+        // width: 400px;
+        max-width: 100%;
+        margin: 1.5rem;
+
+        .inputs {
+            width: 100%;
+            display: flex;
+        }
+    }
+
+    input, button {
+        border: 3px solid;
+        padding: .5rem 1rem;
+        // font-size: 1.3rem;
+    }
+
+    input {
+        width: 100%;
+        margin-right: -2px;
+    }
+}
+
+[data-slug="info"] {
+    padding: 1rem;
+    font-size: 3vw;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255,255,255,0.2);
+    min-height: 100vh;
+
+    p {
+        max-width: 60ch;
+        margin-bottom: 1em;
+        text-indent: 1.5rem;
+    }
+
+    a {
+        // margin: 1.5rem;
+        border: 3px solid;
+        padding: .5rem 1rem;
+        // font-size: 1.3rem;
+        // color: red;
+    }
+}

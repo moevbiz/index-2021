@@ -32,36 +32,3 @@
         transform: rotate(5deg);
     }
 }
-
-.signup-form-container {
-    position: fixed;
-    bottom: 0;
-    padding: 1.5rem;
-    width: 100vw;
-    z-index: 100000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    form {
-        width: 400px;
-        max-width: 100%;
-
-        .inputs {
-            width: 100%;
-            display: flex;
-        }
-    }
-
-    input, button {
-        border: 2px solid;
-        padding: .5rem 1rem;
-        font-size: 1.3rem;
-    }
-
-    input {
-        width: 100%;
-        margin-right: -2px;
-    }
-}

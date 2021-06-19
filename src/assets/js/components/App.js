@@ -1,6 +1,7 @@
 import { Map } from './Map';
 import { Logo } from './Logo';
 import Swup from 'swup';
+import { scrollToY } from '../tools';
 
 let swup;
 
@@ -24,48 +25,50 @@ export class App {
     }
     setState(state = {}) {
         this.state = {...this.state, ...state};
-        // console.log(this.state);
         for (const [key, value] of Object.entries(this.state)) {
             document.body.dataset[key] = value;
         }
     }
     afterLoad() {
-        if (window.location.pathname.includes('/list') && this.state.space) {
-            // console.log(document.querySelectorAll('.space'));
-            this.selectSpace(this.state.space);
-        }
+        this.setState({
+            useActiveArea: window.location.pathname.includes('/list'),
+            view: window.location.pathname,
+        })
         this.$spaces = document.querySelectorAll('.space');
         if (this.$spaces) {
             this.$spaces.forEach(s => {
-                s.addEventListener('click', () => {
+                s.addEventListener('click', e => {
                     this.selectSpace(s.id);
                 })
             })
         }
-        
-        this.setState({
-            useActiveArea: window.location.pathname.includes('/list'),
-        })
+        if (window.location.pathname.includes('/list') && this.state.space) {
+            this.selectSpace(this.state.space);
+        }
+
         // this.setState({
             
         // });
     }
     setView(options) {
         if (options.view == 'space') {
+            let st;
             let hash = `#${options.space}`;
             if (window.location.pathname.includes('/list')) {
                 // window.location.hash = hash;
                 // this.update();
                 // this.selectSpace(options.space);
+                st = {};
             } else {
                 swup.loadPage({
                     url: `/list/${hash}`, // route of request (defaults to current url)
                 });
-                this.setState({useActiveArea: true, space: options.space});
+                st = {useActiveArea: true, space: options.space};
             }
 
             this.setState({
-                view: 'space',
+                ...st,
+                // view: 'space',
             })
         }
     }
@@ -83,16 +86,21 @@ export class App {
         })
         this.$map.$map.panTo(marker.getLatLng());
         this.setState({space});
-        window.location.hash = '#' + this.state.space;
         if (this.$spaces) {
             this.$spaces.forEach(s => {
                 if (s.id == this.state.space) {
                     s.classList.add('is-selected');
+                    scrollToY(s.offsetTop, this.view == '/list/' ? 1500 : 0, 'easeInOutQuint');
+                    // s.scrollIntoView({
+                    //     behavior: 'smooth'
+                    // });
                 } else {
                     s.classList.remove('is-selected');
                 }
             })
         }
+        // window.location.hash = '#' + this.state.space;
+        history.replaceState({}, '', '#' + this.state.space);
     }
     init(data) {
         this.setState();
