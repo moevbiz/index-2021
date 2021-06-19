@@ -147,6 +147,9 @@ export class App {
             }, {once: true})
         })
 
+        let tapTolerance = 500;
+        let literallyJustTapped = false,
+
         const markerClickHandler = (m, e) => {
             if (window.location.pathname.includes('/list')) {
                 this.selectSpace(m.options.title);
@@ -164,6 +167,7 @@ export class App {
                 if (window.innerWidth > 660) {
                     markerClickHandler(m, e);
                 } else {
+                    if (literallyJustTapped) return;
                     this.$map.markers.forEach(m => {
                         if (m == e.target) return;
                         m._icon.classList.remove('marker-icon-selected');
@@ -175,6 +179,9 @@ export class App {
                         markerClickHandler(m, e);
                         m._icon.classList.remove('is-clicked-once');
                     }
+                    window.setTimeout(() => {
+                        literallyJustTapped = false;
+                    }, tapTolerance);
                 }
             })
         });
