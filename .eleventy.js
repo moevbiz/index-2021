@@ -4,6 +4,10 @@ module.exports = function(config) {
 
     config.addLayoutAlias('default', 'layouts/base.njk');
 
+    config.addShortcode('la', function(iconName) {
+        return `<i class="la la-${iconName}"></i>`
+    });
+
     config.addPassthroughCopy('./src/assets/images');
     config.addPassthroughCopy('./src/assets/fonts');
 

@@ -1,15 +1,19 @@
 ---
-title: Independent Space Index 2021
+title: Info • Independent Space Index 2021
 layout: default
 ---
 
-<!-- For the duration of three days in October, Viennese project spaces present a varied program of openings, screenings, talks, guided tours and performances. -->
+# Independent Space Index 2021
+July 3+4, 2021
+12-7pm
 
-[PARTICIPATING SPACES ⟶](/list)
+On Saturday and Sunday, July 3 and 4, Viennese project spaces jointly invite to a city-wide open doors event from 12 – 7pm.
+
+[PARTICIPATING SPACES {% la 'arrow-right' %}](/list)
 
 Independent Space Index is a is a self-organized networking platform and a directory of artist-run and independent art spaces in Vienna.
 
-[CHECK OUT THE INDEX WEBSITE ⟶](https://independentspaceindex.at)
+[INDEX WEBSITE {% la 'arrow-right' %}](https://independentspaceindex.at)
 
 The Index acts as a channel of representation for the identically named local association of independent art spaces, formed in late 2017 as a response to right-wing politics and the threat of public cultural funding cuts in Austria.
 
@@ -31,6 +35,6 @@ Subscribe to our newsletter:
 
 Please direct any press inquiries or other questions to
 
-[CONTACT@INDEPENDENTSPACEINDEX.AT](mailto:contact@independentspaceindex.at)
+[{% la 'paper-plane' %} contact@independentspaceindex.at](mailto:contact@independentspaceindex.at)
 
-Privacy & Imprint
+[Privacy & Imprint](https://independentspaceindex.at/imprint)

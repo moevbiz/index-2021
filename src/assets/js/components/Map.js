@@ -4,6 +4,8 @@ import { LatLng } from 'leaflet';
 
 const mapOptions = {
     zoomControl: false,
+    minZoom: 11,
+    // maxBounds: L.latLngBounds(corner1, corner2),
 }
 
 export class Map {
@@ -23,9 +25,12 @@ export class Map {
         this.data = data;
 
         this.init();
+
+        console.log(this.$map);
     }
     
     addMarkers() {
+        this.markerLayerGroup = L.featureGroup();
         this.data.forEach(dat => {
             let marker = L.marker(new LatLng(dat.lat, dat.lng), {
                 title: dat.uid,
@@ -36,8 +41,11 @@ export class Map {
                 }),
             });
             this.markers.push(marker);
-            marker.addTo(this.$map);
+            this.markerLayerGroup.addLayer(marker);
+            // marker.addTo(this.$map);
         });
+        this.markerLayerGroup.addTo(this.$map);
+        // this.$map.setMaxBounds(this.markerLayerGroup.getBounds())
     }
     init() {
         this.addMarkers();

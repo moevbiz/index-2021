@@ -1,7 +1,9 @@
-.leaflet-control-attribution a {
-    color: inherit;
-    border-bottom: 1px dotted;
-    font-size: 9px;
+.leaflet-control-attribution {
+    font-size: 9px!important;
+    a {
+        color: inherit;
+        border-bottom: 1px dotted;
+    }
 }
 
 #map {
@@ -52,6 +54,32 @@
             background: transparent;
             border: 2px solid black;
             animation: selectIcon .3s linear;
+        }
+        span {
+            display: block;
+            z-index: 100000;
+        }
+    }
+
+    &.is-clicked-once {
+        &::after {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Line Awesome Free';
+            font-weight: 900;
+            content: '\f067';
+            font-size: 2rem;
+            color: white;
+            background: black;
+            width: 2.5rem;
+            height: 2.5rem;
+            transform: translate(-0.625rem, -0.625rem);
+        }
+        span {
+            display: block;
+            margin-left: 1rem;
+            z-index: 100000;
         }
     }
 }

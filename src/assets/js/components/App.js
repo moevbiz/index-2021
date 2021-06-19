@@ -2,6 +2,8 @@ import { Map } from './Map';
 import { Logo } from './Logo';
 import Swup from 'swup';
 import { scrollToY } from '../tools';
+import { NewsletterForm } from "./NewsletterForm";
+import { marker } from 'leaflet';
 
 let swup;
 
@@ -46,6 +48,14 @@ export class App {
             this.selectSpace(this.state.space);
         }
 
+        if (document.querySelector('.signup-form')) {
+            new NewsletterForm('.signup-form');
+        }
+
+        if (window.location.pathname.includes('info')) {
+            window.scrollTo(0,0);
+        }
+
         // this.setState({
             
         // });
@@ -71,6 +81,16 @@ export class App {
                 // view: 'space',
             })
         }
+    }
+    unselectSpace() {
+        this.$map.markers.forEach(m => {
+            m._icon.classList.remove('marker-icon-selected');
+        })
+        this.$spaces.forEach(s => {
+            s.classList.remove('is-selected');
+        });
+        history.pushState({}, '', window.location.pathname);
+        this.setState({space: ''});
     }
     selectSpace(space) {
         let marker;
@@ -127,16 +147,34 @@ export class App {
             }, {once: true})
         })
 
+        const markerClickHandler = (m, e) => {
+            if (window.location.pathname.includes('/list')) {
+                this.selectSpace(m.options.title);
+            } else {
+                this.setView({
+                    view: 'space',
+                    space: m.options.title,
+                    trigger: e.target,
+                })
+            }
+        }
+
         this.$map.markers.forEach(m => {
             m.on('click', (e) => {
-                if (window.location.pathname.includes('/list')) {
-                    this.selectSpace(m.options.title);
+                if (window.innerWidth > 660) {
+                    markerClickHandler(m, e);
                 } else {
-                    this.setView({
-                        view: 'space',
-                        space: m.options.title,
-                        trigger: e.target,
+                    this.$map.markers.forEach(m => {
+                        if (m == e.target) return;
+                        m._icon.classList.remove('marker-icon-selected');
+                        m._icon.classList.remove('is-clicked-once');
                     })
+                    if (!m._icon.classList.contains('is-clicked-once')) {
+                        m._icon.classList.add('is-clicked-once');
+                    } else {
+                        markerClickHandler(m, e);
+                        m._icon.classList.remove('is-clicked-once');
+                    }
                 }
             })
         });
@@ -147,6 +185,13 @@ export class App {
                 space: this.state.space,
             })
         }
+
+        this.$map.$map.on('click', e => {
+            this.unselectSpace();
+            this.$map.markers.forEach(m => {
+                m._icon.classList.remove('is-clicked-once');
+            });
+        })
 
         this.afterLoad();
     }
