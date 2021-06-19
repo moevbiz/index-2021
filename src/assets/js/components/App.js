@@ -148,7 +148,7 @@ export class App {
         })
 
         let tapTolerance = 500;
-        let literallyJustTapped = false,
+        let literallyJustTapped = false;
 
         const markerClickHandler = (m, e) => {
             if (window.location.pathname.includes('/list')) {
