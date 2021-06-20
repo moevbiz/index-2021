@@ -1,22 +1,27 @@
----
-title: Info • Independent Space Index 2021
-layout: default
+---js
+{
+  title: "Info • Independent Space Index 2021",
+  layout: "default",
+}
+
 ---
 
 # Independent Space Index 2021
 July 3+4, 2021
 12-7pm
 
-On Saturday and Sunday, July 3 and 4, Viennese project spaces jointly invite to a city-wide open doors event from 12 – 7pm.
+On Saturday and Sunday, July 3 and 4, from 12pm until 7pm, Viennese project spaces jointly invite to a city-wide Open House event. 
 
-[PARTICIPATING SPACES {% la 'arrow-right' %}](/list)  
+Spanning exhibitions in **{{ numSpaces }}** spaces in **{{ numDistricts }}** municipal districts, the event was conceived as an open assemblage of initiatives aimed at revealing the vibrancy, complexity and diversity of Vienna's independent art scene. Visitors are invited to join the parcours and discover this richness across the city.
+
+[LIST OF PARTICIPANTS {% la 'arrow-right' %}](/list)  
 <span style="font-family: monospace; font-size: 1.5rem">The list of participants will be regularly updated until just before the event. Check back soon.</span>
 
-Independent Space Index is a is a self-organized networking platform and a directory of artist-run and independent art spaces in Vienna.
+Independent Space Index is a is a self-organized networking platform and provides a directory of independent spaces for contemporary art in Vienna.
 
-[INDEX WEBSITE {% la 'arrow-right' %}](https://independentspaceindex.at)
+[DIRECTORY OF SPACES {% la 'arrow-right' %}](https://independentspaceindex.at)
 
-The Index acts as a channel of representation for the identically named local association of independent art spaces, formed in late 2017 as a response to right-wing politics and the threat of public cultural funding cuts in Austria.
+This website acts as a channel of representation for the local association of independent art spaces, formed in late 2017 as a response to right-wing politics and  proposed public funding cuts for cultural initiatives in the city.
 
 Subscribe to our newsletter:
 <div class="signup-form-container">
