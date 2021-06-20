@@ -9,7 +9,8 @@ July 3+4, 2021
 
 On Saturday and Sunday, July 3 and 4, Viennese project spaces jointly invite to a city-wide open doors event from 12 – 7pm.
 
-[PARTICIPATING SPACES {% la 'arrow-right' %}](/list)
+[PARTICIPATING SPACES {% la 'arrow-right' %}](/list)  
+<span style="font-family: monospace; font-size: 1.5rem">The list of participants will be regularly updated until just before the event. Check back soon.</span>
 
 Independent Space Index is a is a self-organized networking platform and a directory of artist-run and independent art spaces in Vienna.
 
