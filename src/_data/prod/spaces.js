@@ -60,9 +60,20 @@ module.exports = () => {
             eventTitle: readEntry(participant, 'eventtitle'),
             eventDetails: readEntry(participant, 'eventdetails'),
             eventWebsite: readEntry(participant, 'eventwebsite'),
+            // altLat: readEntry(participant, 'eventlat'),
+            // altLng: readEntry(participant, 'eventlng'),
             spaceData,
           }
 
+          if (readEntry(participant, 'altlat')) {
+            entry.altLat = readEntry(participant, 'altlat');
+          };
+          if (readEntry(participant, 'altlng')) {
+            entry.altLng = readEntry(participant, 'altlng');
+          }
+          // console.log(!readEntry(participant, 'altlat'));
+          // console.log(!!readEntry(participant, 'altlat'));
+          
           data.entries.push(entry);
         });
         

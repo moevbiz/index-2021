@@ -23,7 +23,7 @@
         "spaceID": "the-club-club",
         "eventTitle": "INTÉRIEUR – A Tribute To Erwin Hauer",
         "eventDetails": "Erwin Hauer, Ulrike Johannsen, Sophia Latysheva, Stefan Lux, Heti Prack, Almut Reichenbach, Peter Sandbichler, Fabian Seiz, Esther Stocker, Barbara Sturm, Nazim Ünal Yilmaz, Alexandra Sascha Zaitseva",
-        "eventWebsite": "",
+        "eventWebsite": "https://www.clubclub.wien/INTERIEUR.html",
         "spaceData": {
             "spaceId": "spaces/the-club-club",
             "uid": "the-club-club",
@@ -80,7 +80,7 @@
         "spaceID": "hoast",
         "eventTitle": "Past the Time Between",
         "eventDetails": "Katrin Plavčak, Daniel Massow and Charlotte Mumm",
-        "eventWebsite": "",
+        "eventWebsite": "https://www.glazprom.org/hoast/19-june-04-july-2021-past-the-time-between/",
         "spaceData": {
             "spaceId": "spaces/hoast",
             "uid": "hoast",
@@ -301,7 +301,9 @@
             "inactive": false,
             "lat": 0,
             "lng": 0
-        }
+        },
+        "altLat": "10",
+        "altLng": "10"
     },
     {
         "spaceName": "VBKÖ",
