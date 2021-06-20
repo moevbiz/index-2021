@@ -1,135 +1,21 @@
 [
     {
-        "spaceName": "Laurenz",
-        "spaceID": "laurenz",
-        "eventTitle": "Živa Drvarič and Martin Schlögl",
-        "eventDetails": "",
-        "eventWebsite": "",
+        "spaceName": "ada",
+        "spaceID": "ada",
+        "eventTitle": "OTK Files",
+        "eventDetails": "OTK Files – Vienna Street Art Projects – versammelt Roland Maurmairs\nkünstlerische Interventionen und Projekte im öffentlichen Raum der\nletzten Jahre, größtenteils in und um Ottakring realisiert, dem 16.\nWiener Stadtbezirk, wo sich Atelier und Wohnsitz des Künstlers befanden.",
+        "eventWebsite": "https://artisticdynamicassociation.eu/2021/06/04/ada-is-otk-files/",
         "spaceData": {
-            "spaceId": "spaces/laurenz",
-            "uid": "laurenz",
-            "name": "Laurenz",
-            "district": 15,
-            "address": "Löhrgasse 9",
-            "website": "https://www.laurenz-space.com",
-            "prettyurl": "laurenz-space.com",
+            "spaceId": "spaces/ada",
+            "uid": "ada",
+            "name": "ada",
+            "district": 16,
+            "address": "Wattgasse 16/6",
+            "website": "http://artisticdynamicassociation.eu/",
+            "prettyurl": "artisticdynamicassociation.eu",
             "inactive": false,
-            "lat": 48.198839,
-            "lng": 16.336867
-        }
-    },
-    {
-        "spaceName": "Guimarães",
-        "spaceID": "guimaraes",
-        "eventTitle": "João Jr.",
-        "eventDetails": "Gijs Milius, Sophie Nys",
-        "eventWebsite": "",
-        "spaceData": {
-            "spaceId": "spaces/guimaraes",
-            "uid": "guimaraes",
-            "name": "Guimarães",
-            "district": 6,
-            "address": "Linke Wienzeile 36 / 1c",
-            "website": "http://www.guimaraes.info/",
-            "prettyurl": "guimaraes.info",
-            "inactive": false,
-            "lat": 48.19772,
-            "lng": 16.36032
-        }
-    },
-    {
-        "spaceName": "Llllll",
-        "spaceID": "llllll",
-        "eventTitle": "Jamais vu 2",
-        "eventDetails": "curated by Liudmila Kirsanova, with works by Maximiliane Leni Armann, Sarah Pedde, Darja Shatalova",
-        "eventWebsite": "",
-        "spaceData": {
-            "spaceId": "spaces/llllll",
-            "uid": "llllll",
-            "name": "Llllll",
-            "district": 3,
-            "address": "Seidlgasse 14",
-            "website": "http://www.LLLLLL.at",
-            "prettyurl": "LLLLLL.at",
-            "inactive": false,
-            "lat": 48.207243,
-            "lng": 16.390165
-        }
-    },
-    {
-        "spaceName": "hoast",
-        "spaceID": "hoast",
-        "eventTitle": "Past the Time Between",
-        "eventDetails": "Katrin Plavčak, Daniel Massow and Charlotte Mumm",
-        "eventWebsite": "",
-        "spaceData": {
-            "spaceId": "spaces/hoast",
-            "uid": "hoast",
-            "name": "hoast",
-            "district": 2,
-            "address": "Große Sperlgasse 25",
-            "website": "http://www.hoast.net/",
-            "prettyurl": "hoast.net",
-            "inactive": false,
-            "lat": 48.217783,
-            "lng": 16.378136
-        }
-    },
-    {
-        "spaceName": "New Jörg",
-        "spaceID": "new-joerg",
-        "eventTitle": "SALON DAGOBERT",
-        "eventDetails": "Heti Prack",
-        "eventWebsite": "https://newjoerg.at/exhibitions/heti-salon-dagobert",
-        "spaceData": {
-            "spaceId": "spaces/new-joerg",
-            "uid": "new-joerg",
-            "name": "New Jörg",
-            "district": 20,
-            "address": "Jägerstraße 56",
-            "website": "http://www.newjoerg.at/",
-            "prettyurl": "newjoerg.at",
-            "inactive": false,
-            "lat": 48.234304,
-            "lng": 16.370395
-        }
-    },
-    {
-        "spaceName": "GOMO",
-        "spaceID": "gomo",
-        "eventTitle": "The Desert Has Three Layers, Two of Fruit and One of Cream",
-        "eventDetails": "Carolin Israel und Lukas Hochrieder",
-        "eventWebsite": "",
-        "spaceData": {
-            "spaceId": "spaces/gomo",
-            "uid": "gomo",
-            "name": "GOMO",
-            "district": 2,
-            "address": "Volkertplatz 8",
-            "website": "http://www.gomoartspace.com/",
-            "prettyurl": "gomoartspace.com",
-            "inactive": false,
-            "lat": 48.22289,
-            "lng": 16.3874
-        }
-    },
-    {
-        "spaceName": "Pina",
-        "spaceID": "pina",
-        "eventTitle": "But I doubt, I tremble, I see (shaking edges) and the wild thorn tree",
-        "eventDetails": "Giuliana Rosso & Rory Pilgrim, curated by Caterina Avataneo",
-        "eventWebsite": "https://pinavienna.eu/exhibitions/but-i-doubt-i-tremble-i-see-shaking-edges-and-the-wild-thorn-tree",
-        "spaceData": {
-            "spaceId": "spaces/pina",
-            "uid": "pina",
-            "name": "Pina",
-            "district": 4,
-            "address": "Große Neugasse 44",
-            "website": "https://pinavienna.eu",
-            "prettyurl": "pinavienna.eu",
-            "inactive": false,
-            "lat": 48.194289,
-            "lng": 16.36292
+            "lat": 48.2130799,
+            "lng": 16.3169945
         }
     },
     {
@@ -152,6 +38,158 @@
         }
     },
     {
+        "spaceName": "GOMO",
+        "spaceID": "gomo",
+        "eventTitle": "The Desert Has Three Layers, Two of Fruit and One of Cream",
+        "eventDetails": "Carolin Israel und Lukas Hochrieder",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/gomo",
+            "uid": "gomo",
+            "name": "GOMO",
+            "district": 2,
+            "address": "Volkertplatz 8",
+            "website": "http://www.gomoartspace.com/",
+            "prettyurl": "gomoartspace.com",
+            "inactive": false,
+            "lat": 48.22289,
+            "lng": 16.3874
+        }
+    },
+    {
+        "spaceName": "Guimarães",
+        "spaceID": "guimaraes",
+        "eventTitle": "João Jr.",
+        "eventDetails": "Gijs Milius, Sophie Nys",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/guimaraes",
+            "uid": "guimaraes",
+            "name": "Guimarães",
+            "district": 6,
+            "address": "Linke Wienzeile 36 / 1c",
+            "website": "http://www.guimaraes.info/",
+            "prettyurl": "guimaraes.info",
+            "inactive": false,
+            "lat": 48.19772,
+            "lng": 16.36032
+        }
+    },
+    {
+        "spaceName": "hoast",
+        "spaceID": "hoast",
+        "eventTitle": "Past the Time Between",
+        "eventDetails": "Katrin Plavčak, Daniel Massow and Charlotte Mumm",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/hoast",
+            "uid": "hoast",
+            "name": "hoast",
+            "district": 2,
+            "address": "Große Sperlgasse 25",
+            "website": "http://www.hoast.net/",
+            "prettyurl": "hoast.net",
+            "inactive": false,
+            "lat": 48.217783,
+            "lng": 16.378136
+        }
+    },
+    {
+        "spaceName": "Kevin Space",
+        "spaceID": "kevin-space",
+        "eventTitle": "TBA",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/kevin-space",
+            "uid": "kevin-space",
+            "name": "Kevin Space",
+            "district": 2,
+            "address": "Volkertplatz 14",
+            "website": "http://kevinspace.org",
+            "prettyurl": "kevinspace.org",
+            "inactive": false,
+            "lat": 48.22256,
+            "lng": 16.38591
+        }
+    },
+    {
+        "spaceName": "Kluckyland",
+        "spaceID": "kluckyland",
+        "eventTitle": "TBA",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/kluckyland",
+            "uid": "kluckyland",
+            "name": "Kluckyland",
+            "district": 20,
+            "address": "Othmargasse 34",
+            "website": "http://www.kluckyland.com",
+            "prettyurl": "kluckyland.com",
+            "inactive": false,
+            "lat": 48.2306952,
+            "lng": 16.3682
+        }
+    },
+    {
+        "spaceName": "Kulturdrogerie",
+        "spaceID": "kulturdrogerie",
+        "eventTitle": "TBA",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/kulturdrogerie",
+            "uid": "kulturdrogerie",
+            "name": "Kulturdrogerie",
+            "district": 18,
+            "address": "Gentzgasse 86-88",
+            "website": "http://www.kulturdrogerie.org",
+            "prettyurl": "kulturdrogerie.org",
+            "inactive": false,
+            "lat": 48.228187,
+            "lng": 16.337869
+        }
+    },
+    {
+        "spaceName": "Laurenz",
+        "spaceID": "laurenz",
+        "eventTitle": "Živa Drvarič and Martin Schlögl",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/laurenz",
+            "uid": "laurenz",
+            "name": "Laurenz",
+            "district": 15,
+            "address": "Löhrgasse 9",
+            "website": "https://www.laurenz-space.com",
+            "prettyurl": "laurenz-space.com",
+            "inactive": false,
+            "lat": 48.198839,
+            "lng": 16.336867
+        }
+    },
+    {
+        "spaceName": "Llllll",
+        "spaceID": "llllll",
+        "eventTitle": "Jamais vu 2",
+        "eventDetails": "curated by Liudmila Kirsanova, with works by Maximiliane Leni Armann, Sarah Pedde, Darja Shatalova",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/llllll",
+            "uid": "llllll",
+            "name": "Llllll",
+            "district": 3,
+            "address": "Seidlgasse 14",
+            "website": "http://www.LLLLLL.at",
+            "prettyurl": "LLLLLL.at",
+            "inactive": false,
+            "lat": 48.207243,
+            "lng": 16.390165
+        }
+    },
+    {
         "spaceName": "MOTHERBOARD",
         "spaceID": "motherboard",
         "eventTitle": "LEBHAFTE MATERIE",
@@ -168,6 +206,120 @@
             "inactive": false,
             "lat": 48.223721,
             "lng": 16.381981
+        }
+    },
+    {
+        "spaceName": "New Jörg",
+        "spaceID": "new-joerg",
+        "eventTitle": "SALON DAGOBERT",
+        "eventDetails": "Heti Prack",
+        "eventWebsite": "https://newjoerg.at/exhibitions/heti-salon-dagobert",
+        "spaceData": {
+            "spaceId": "spaces/new-joerg",
+            "uid": "new-joerg",
+            "name": "New Jörg",
+            "district": 20,
+            "address": "Jägerstraße 56",
+            "website": "http://www.newjoerg.at/",
+            "prettyurl": "newjoerg.at",
+            "inactive": false,
+            "lat": 48.234304,
+            "lng": 16.370395
+        }
+    },
+    {
+        "spaceName": "philomena+",
+        "spaceID": "philomena",
+        "eventTitle": "TBA",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/philomena",
+            "uid": "philomena",
+            "name": "philomena+",
+            "district": 2,
+            "address": "Heinestraße 40/7",
+            "website": "http://philomena.plus/",
+            "prettyurl": "philomena.plus",
+            "inactive": false,
+            "lat": 48.218234,
+            "lng": 16.389489
+        }
+    },
+    {
+        "spaceName": "Pina",
+        "spaceID": "pina",
+        "eventTitle": "But I doubt, I tremble, I see (shaking edges) and the wild thorn tree",
+        "eventDetails": "Giuliana Rosso & Rory Pilgrim, curated by Caterina Avataneo",
+        "eventWebsite": "https://pinavienna.eu/exhibitions/but-i-doubt-i-tremble-i-see-shaking-edges-and-the-wild-thorn-tree",
+        "spaceData": {
+            "spaceId": "spaces/pina",
+            "uid": "pina",
+            "name": "Pina",
+            "district": 4,
+            "address": "Große Neugasse 44",
+            "website": "https://pinavienna.eu",
+            "prettyurl": "pinavienna.eu",
+            "inactive": false,
+            "lat": 48.194289,
+            "lng": 16.36292
+        }
+    },
+    {
+        "spaceName": "school",
+        "spaceID": "school",
+        "eventTitle": "TBA",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/school",
+            "uid": "school",
+            "name": "school",
+            "district": 5,
+            "address": "Grüngasse 22",
+            "website": "https://weloveschool.org",
+            "prettyurl": "weloveschool.org",
+            "inactive": false,
+            "lat": 48.194305,
+            "lng": 16.356382
+        }
+    },
+    {
+        "spaceName": "VAN",
+        "spaceID": "van",
+        "eventTitle": "TBA",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/van",
+            "uid": "van",
+            "name": "VAN",
+            "district": 0,
+            "address": "",
+            "website": "https://www.instagram.com/van.artspace/",
+            "prettyurl": "@van.artspace",
+            "inactive": false,
+            "lat": 0,
+            "lng": 0
+        }
+    },
+    {
+        "spaceName": "VBKÖ",
+        "spaceID": "vbkoe",
+        "eventTitle": "TBA",
+        "eventDetails": "",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/vbkoe",
+            "uid": "vbkoe",
+            "name": "VBKÖ",
+            "district": 1,
+            "address": "Maysedergasse 2",
+            "website": "http://www.vbkoe.org/",
+            "prettyurl": "vbkoe.org",
+            "inactive": false,
+            "lat": 48.20434,
+            "lng": 16.370116
         }
     }
 ]

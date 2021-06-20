@@ -25,8 +25,6 @@ export class Map {
         this.data = data;
 
         this.init();
-
-        console.log(this.$map);
     }
     
     addMarkers() {
