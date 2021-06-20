@@ -12,7 +12,8 @@ July 3+4, 2021
 
 On Saturday and Sunday, July 3 and 4, from 12pm until 7pm, Viennese project spaces jointly invite to a city-wide Open House event. 
 
-Spanning exhibitions in **{{ numSpaces }}** spaces in **{{ numDistricts }}** municipal districts, the event was conceived as an open assemblage of initiatives aimed at revealing the vibrancy, complexity and diversity of Vienna's independent art scene. Visitors are invited to join the parcours and discover this richness across the city.
+<!-- Spanning exhibitions in **{{ numSpaces }}** spaces in **{{ numDistricts }}** municipal districts,  -->
+Spanning exhibitions in {{ spaces.length }} spaces all over town, the event was conceived as an open assemblage of initiatives aimed at revealing the vibrancy, complexity and diversity of Vienna's independent art scene. Visitors are invited to join the parcours and discover this richness across the city.
 
 [LIST OF PARTICIPANTS {% la 'arrow-right' %}](/list)  
 <span style="font-family: monospace; font-size: 1.5rem">The list of participants will be regularly updated until just before the event. Check back soon.</span>
