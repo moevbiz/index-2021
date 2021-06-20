@@ -56,6 +56,8 @@ export class App {
             window.scrollTo(0,0);
         }
 
+        this.updateMenu();
+
         // this.setState({
             
         // });
@@ -81,6 +83,17 @@ export class App {
                 // view: 'space',
             })
         }
+    }
+    updateMenu() {
+        console.log(this.state.view);
+        console.log(this.$menuElements);
+        this.$menuElements.forEach(el => {
+            if (this.state.view == el.dataset.view) {
+                el.classList.add('is-active-element');
+            } else {
+                el.classList.remove('is-active-element');
+            }
+        })
     }
     unselectSpace() {
         this.$map.markers.forEach(m => {
@@ -125,6 +138,7 @@ export class App {
     init(data) {
         this.setState();
         this.$map = new Map('map', data);
+        this.$menuElements = document.querySelectorAll('nav .menu-link');
         swup = new Swup();
         swup.on('contentReplaced', () => {
             this.afterLoad();
@@ -159,7 +173,7 @@ export class App {
                 })
             }
         }
-        
+
         let tapTolerance = 200;
         let literallyJustTapped = false;
         

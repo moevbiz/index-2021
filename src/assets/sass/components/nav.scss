@@ -9,6 +9,12 @@ nav {
         flex-direction: row;
         justify-content: center;
 
+        .is-active-element {
+            .button {
+                background: $red;
+            }
+        }
+
         li {
             display: flex;
             flex-direction: column;
