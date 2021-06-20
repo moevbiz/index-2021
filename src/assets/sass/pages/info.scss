@@ -67,6 +67,8 @@
         word-break: break-all;
         text-transform: uppercase;
         font-family: monospace;
+        box-decoration-break: clone;
+        line-height: 1.85em;
     }
 
     i {
