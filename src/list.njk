@@ -19,6 +19,11 @@ layout: default
                 <h2 class="space__event-title">{{space.eventTitle}}</h2>
                 <p class="space__event-details">{{ space.eventDetails }}</p>
             </div>
+            <div class="space__event-website">
+                {% if space.eventWebsite %}
+                    <a href="{{ space.eventWebsite }}" target="_blank">More info {% la 'external-link-alt' %}</a>
+                {% endif %}
+            </div>
         </div>
     {% endfor %}
     </ul>

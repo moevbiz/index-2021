@@ -30,6 +30,13 @@
         // width: 100%;
         margin-right: -2px;
     }
+
+    button {
+        cursor: pointer;
+        &:hover {
+            color: red;
+        }
+    }
 }
 
 [data-slug="info"] {
@@ -69,6 +76,10 @@
         font-family: monospace;
         box-decoration-break: clone;
         line-height: 1.85em;
+
+        &:hover {
+            color: red;
+        }
     }
 
     i {
