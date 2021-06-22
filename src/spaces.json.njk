@@ -6,7 +6,7 @@ permalink: /spaces.json
   {
     "lat": "{{ space.spaceData.lat if space.spaceData.lat else space.altLat }}",
     "lng": "{{ space.spaceData.lng if space.spaceData.lng else space.altLng }}",
-    "uid": "{{ space.spaceData.uid }}",
+    "uid": "{{ space.spaceData.uid if space.spaceData.uid else space.spaceID }}",
     "name": "{{ space.spaceData.name if space.spaceData.name else space.spaceName }}"
   }{{ '' if loop.last else ',' }}
 {% endfor  %}
