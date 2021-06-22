@@ -10,14 +10,19 @@ layout: default
             <h1 class="space__title">{{ space.spaceName }}</h1>
             <address class="space__address">
                 <i class="la la-map-marker"></i>
-                    {% if space.spaceData.lat > 0 %}
-                    {{space.spaceData.address}}, {{ space.spaceData.district | plz }} Vienna
+                    {% if space.spaceData %}
+                    {{ space.spaceData.address }}, {{ space.spaceData.district | plz }} Vienna
                     {% else %}
-                    nomadic
+                    {{ space.altAddress }}
                     {% endif %}
             </address>
             <address class="space__address">
-                <i class="las la-link"></i> <a href="{{ space.spaceData.website }}" target="_blank">{{ space.spaceData.prettyurl }}</a>
+                <i class="las la-link"></i> 
+                {% if space.spaceData %}
+                <a href="{{ space.spaceData.website }}" target="_blank">{{ space.spaceData.prettyurl }}</a>
+                {% else %}
+                <a href="{{ space.altWebsite }}" target="_blank">{{ space.altWebsite | url }}</a>
+                {% endif %}
             </address>
             <br>
             <div class="space__text-content">

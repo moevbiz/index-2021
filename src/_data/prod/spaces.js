@@ -71,6 +71,12 @@ module.exports = () => {
           if (readEntry(participant, 'altlng')) {
             entry.altLng = readEntry(participant, 'altlng');
           }
+          if (readEntry(participant, 'altwebsite')) {
+            entry.altWebsite = readEntry(participant, 'altwebsite');
+          };
+          if (readEntry(participant, 'altaddress')) {
+            entry.altAddress = readEntry(participant, 'altaddress');
+          }
           // console.log(!readEntry(participant, 'altlat'));
           // console.log(!!readEntry(participant, 'altlat'));
           

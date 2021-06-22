@@ -31,6 +31,7 @@
         transform: translateY(-50%);
         display: none;
         white-space: pre;
+        pointer-events: none;
     }
 
     &:hover {

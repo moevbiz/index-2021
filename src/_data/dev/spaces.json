@@ -4,7 +4,7 @@
         "spaceID": "ada",
         "eventTitle": "OTK Files",
         "eventDetails": "OTK Files – Vienna Street Art Projects – versammelt Roland Maurmairs\nkünstlerische Interventionen und Projekte im öffentlichen Raum der\nletzten Jahre, größtenteils in und um Ottakring realisiert, dem 16.\nWiener Stadtbezirk, wo sich Atelier und Wohnsitz des Künstlers befanden.",
-        "eventWebsite": "https://artisticdynamicassociation.eu/2021/06/04/ada-is-otk-files/",
+        "eventWebsite": "https://artisticdynamicassociation.eu/2021/06/20/ada-is-index2021/",
         "spaceData": {
             "spaceId": "spaces/ada",
             "uid": "ada",
@@ -230,8 +230,8 @@
     {
         "spaceName": "philomena+",
         "spaceID": "philomena",
-        "eventTitle": "TBA",
-        "eventDetails": "",
+        "eventTitle": "Banal Complexities تعقيدات  عادية⁩",
+        "eventDetails": "Interaktive Performance “dialogs on donuts” von Margareta Klose (SAT/SUN 12–7) – “Big Little Stories” von Oscar Cueto (SAT/SUN 12–7) – Performance “Diaries from a Locked Flat” von Nourhan Maayouf (SAT 14h / 15h / 16h)",
         "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/philomena",
@@ -302,8 +302,8 @@
             "lat": 0,
             "lng": 0
         },
-        "altLat": "48.210033",
-        "altLng": "16.363449"
+        "altLat": "48.184120",
+        "altLng": "16.363380"
     },
     {
         "spaceName": "VBKÖ",
@@ -323,5 +323,16 @@
             "lat": 48.20434,
             "lng": 16.370116
         }
+    },
+    {
+        "spaceName": "philomena+ Off-Site",
+        "spaceID": "",
+        "eventTitle": "Intimate Body Machine",
+        "eventDetails": "Lisa Großkopf und Soukaina Joual – Praterstern, U-Bahn-Ausgang “Heinestraße” und Billboard am fluc, Praterstern 5, 1020 Wien",
+        "eventWebsite": "",
+        "altLat": "48.217760",
+        "altLng": "16.393210",
+        "altWebsite": "https://philomena.plus/",
+        "altAddress": "Praterstern"
     }
 ]
