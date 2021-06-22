@@ -247,6 +247,17 @@
         }
     },
     {
+        "spaceName": "philomena+ Off-Site",
+        "spaceID": "philomena-off",
+        "eventTitle": "Intimate Body Machine",
+        "eventDetails": "Lisa Großkopf und Soukaina Joual – Praterstern, U-Bahn-Ausgang “Heinestraße” und Billboard am fluc, Praterstern 5, 1020 Wien",
+        "eventWebsite": "",
+        "altLat": "48.217760",
+        "altLng": "16.393210",
+        "altWebsite": "https://philomena.plus/",
+        "altAddress": "Praterstern"
+    },
+    {
         "spaceName": "Pina",
         "spaceID": "pina",
         "eventTitle": "But I doubt, I tremble, I see (shaking edges) and the wild thorn tree",
@@ -323,16 +334,5 @@
             "lat": 48.20434,
             "lng": 16.370116
         }
-    },
-    {
-        "spaceName": "philomena+ Off-Site",
-        "spaceID": "",
-        "eventTitle": "Intimate Body Machine",
-        "eventDetails": "Lisa Großkopf und Soukaina Joual – Praterstern, U-Bahn-Ausgang “Heinestraße” und Billboard am fluc, Praterstern 5, 1020 Wien",
-        "eventWebsite": "",
-        "altLat": "48.217760",
-        "altLng": "16.393210",
-        "altWebsite": "https://philomena.plus/",
-        "altAddress": "Praterstern"
     }
 ]
