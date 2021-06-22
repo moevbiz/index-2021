@@ -22,7 +22,7 @@ Independent Space Index is a is a self-organized networking platform and provide
 
 [DIRECTORY OF SPACES {% la 'arrow-right' %}](https://independentspaceindex.at)
 
-This website acts as a channel of representation for the local association of independent art spaces, formed in late 2017 as a response to right-wing politics and  proposed public funding cuts for cultural initiatives in the city.
+The website acts as a channel of representation for the local association of independent art spaces, formed in late 2017 as a response to right-wing politics and  proposed public funding cuts for cultural initiatives in the city.
 
 Subscribe to our newsletter:
 <div class="signup-form-container">
