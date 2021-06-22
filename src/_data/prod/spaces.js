@@ -56,7 +56,7 @@ module.exports = () => {
 
           let entry = {
             spaceName: spaceData ? spaceData.name : readEntry(participant, 'spacename'),
-            spaceID: readEntry(participant, 'spaceid'),
+            spaceID: spaceData ? spaceData.uid : readEntry(participant, 'spaceid'),
             eventTitle: readEntry(participant, 'eventtitle'),
             eventDetails: readEntry(participant, 'eventdetails'),
             eventWebsite: readEntry(participant, 'eventwebsite'),
