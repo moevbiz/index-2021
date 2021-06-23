@@ -17,3 +17,23 @@ main {
 strong {
     font-weight: bold;
 }
+
+@mixin backdrop-blur {
+    background-color: rgba(255, 255, 255, .9);
+    @supports ((-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))) {
+        background-color: rgba(255,255,255,0.2);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+    }
+}
+
+// .backdrop-blur {
+//     background-color: rgba(255, 255, 255, .9);
+// }
+
+// @supports ((-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))) {
+//     .backdrop-blur {
+//         -webkit-backdrop-filter: blur(5px);
+//         backdrop-filter: blur(5px);
+//     }
+// }

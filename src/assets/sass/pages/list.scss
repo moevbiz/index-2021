@@ -12,7 +12,7 @@
 }
 
 .spaces {
-    backdrop-filter: blur(5px);
+    @include backdrop-blur;
     .space {
         padding: 1.3rem;
         // border-bottom: 1px solid white;

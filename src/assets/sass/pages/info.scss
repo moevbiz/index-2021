@@ -40,6 +40,7 @@
 }
 
 [data-slug="info"] {
+    @include backdrop-blur;
     padding: 1rem;
     font-size: 1.8rem;
     @media (min-width: 800px) {
@@ -50,8 +51,6 @@
         //     border: .25vw solid;
         // }
     }
-    backdrop-filter: blur(5px);
-    background-color: rgba(255,255,255,0.2);
     min-height: 100vh;
 
     h1 {
