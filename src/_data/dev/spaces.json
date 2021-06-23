@@ -279,8 +279,8 @@
     {
         "spaceName": "school",
         "spaceID": "school",
-        "eventTitle": "TBA",
-        "eventDetails": "",
+        "eventTitle": "EVENT: Performative Screenings #70 – ANTIDOT",
+        "eventDetails": "an audio book performed live by Nils Amadeus Lange and Rafael Skoczek – Saturday, July 3rd, 2021 – school opens 7 pm, Performance 8 pm",
         "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/school",
@@ -314,7 +314,8 @@
             "lng": 0
         },
         "altLat": "48.184120",
-        "altLng": "16.363380"
+        "altLng": "16.363380",
+        "altAddress": "TBA, Vienna"
     },
     {
         "spaceName": "VBKÖ",
@@ -333,6 +334,25 @@
             "inactive": false,
             "lat": 48.20434,
             "lng": 16.370116
+        }
+    },
+    {
+        "spaceName": "WAF Galerie",
+        "spaceID": "waf-galerie",
+        "eventTitle": "donkey balancing on a tennis ball",
+        "eventDetails": "Christian Rothwangl",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/waf-galerie",
+            "uid": "waf-galerie",
+            "name": "WAF Galerie",
+            "district": 6,
+            "address": "Schadekgasse 6-8",
+            "website": "https://wafgalerie.com",
+            "prettyurl": "wafgalerie.com",
+            "inactive": false,
+            "lat": 48.19813,
+            "lng": 16.35333
         }
     }
 ]

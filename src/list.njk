@@ -10,7 +10,7 @@ layout: default
             <h1 class="space__title">{{ space.spaceName }}</h1>
             <address class="space__address">
                 <i class="la la-map-marker"></i>
-                    {% if space.spaceData %}
+                    {% if space.spaceData and space.spaceData.district %}
                     {{ space.spaceData.address }}, {{ space.spaceData.district | plz }} Vienna
                     {% else %}
                     {{ space.altAddress }}

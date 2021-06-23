@@ -10,7 +10,7 @@
 July 3+4, 2021
 12-7pm
 
-On Saturday and Sunday, July 3 and 4, from 12pm until 7pm, Viennese project spaces jointly invite to a city-wide Open House event. 
+On Saturday and Sunday, July 3 and 4, from 12pm until 7pm, Viennese project spaces jointly invite to a city-wide Open House event. All listed spaces have extended their opening hours and you can come by without an appointment.
 
 <!-- Spanning exhibitions in **{{ numSpaces }}** spaces in **{{ numDistricts }}** municipal districts,  -->
 Spanning exhibitions in {{ spaces.length }} spaces all over town, the event was conceived as an open assemblage of initiatives aimed at revealing the vibrancy, complexity and diversity of Vienna's independent art scene. Visitors are invited to join the parcours and discover this richness across the city.
@@ -22,7 +22,7 @@ Independent Space Index is a is a self-organized networking platform and provide
 
 [DIRECTORY OF SPACES {% la 'arrow-right' %}](https://independentspaceindex.at)
 
-The website acts as a channel of representation for the local association of independent art spaces, formed in late 2017 as a response to right-wing politics and  proposed public funding cuts for cultural initiatives in the city.
+The website acts as a channel of representation for the local association of independent art spaces, formed in late 2017 as a response to divisive politics and proposed public funding cuts for cultural initiatives in the city.
 
 Subscribe to our newsletter:
 <div class="signup-form-container">

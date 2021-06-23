@@ -15,3 +15,10 @@ html.is-animating .transition-fade {
 html.is-animating .transition-slide {
   transform: translateX(-100vw);
 }
+
+html.is-animating {
+  cursor: progress!important;
+  * {
+    cursor: progress!important;
+  }
+}
