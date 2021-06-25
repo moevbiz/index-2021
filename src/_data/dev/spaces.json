@@ -116,7 +116,7 @@
     {
         "spaceName": "Kluckyland",
         "spaceID": "kluckyland",
-        "eventTitle": "TBA",
+        "eventTitle": "ZWEIMAL BAR MIT KIOSK",
         "eventDetails": "",
         "eventWebsite": "",
         "spaceData": {
@@ -171,15 +171,15 @@
         }
     },
     {
-        "spaceName": "Llllll",
+        "spaceName": "LLLLLL",
         "spaceID": "llllll",
-        "eventTitle": "Jamais vu 2",
-        "eventDetails": "curated by Liudmila Kirsanova, with works by Maximiliane Leni Armann, Sarah Pedde, Darja Shatalova",
-        "eventWebsite": "",
+        "eventTitle": "JAMAIS VU II",
+        "eventDetails": "Maximiliane Leni Armann, Sarah Pedde, Darja Shatalova, curated by Liudmila Kirsanova 📅 Saturday, 6pm: Presentation of the artist zine APOCALYPSE #2 by Sarah Pedde 📅 Saturday + Sunday, 3 – 7pm: Tattoo performance by Natasha Tarr",
+        "eventWebsite": "http://www.llllll.at/",
         "spaceData": {
             "spaceId": "spaces/llllll",
             "uid": "llllll",
-            "name": "Llllll",
+            "name": "LLLLLL",
             "district": 3,
             "address": "Seidlgasse 14",
             "website": "http://www.LLLLLL.at",
@@ -231,7 +231,7 @@
         "spaceName": "philomena+",
         "spaceID": "philomena",
         "eventTitle": "Banal Complexities تعقيدات  عادية⁩",
-        "eventDetails": "Interaktive Performance “dialogs on donuts” von Margareta Klose (SAT/SUN 12–7) – “Big Little Stories” von Oscar Cueto (SAT/SUN 12–7) – Performance “Diaries from a Locked Flat” von Nourhan Maayouf (SAT 14h / 15h / 16h)",
+        "eventDetails": "Interaktive Performance “dialogs on donuts” von Margareta Klose (SAT/SUN 12–7) ••• “Big Little Stories” von Oscar Cueto (SAT/SUN 12–7) ••• Performance “Diaries from a Locked Flat” von Nourhan Maayouf (SAT 14h / 15h / 16h)",
         "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/philomena",
@@ -298,8 +298,8 @@
     {
         "spaceName": "VAN",
         "spaceID": "van",
-        "eventTitle": "TBA",
-        "eventDetails": "",
+        "eventTitle": "Mario Kiesenhofer @ VAN Artspace",
+        "eventDetails": "as part of his exhibition Shifting Layers at Bildraum 01",
         "eventWebsite": "",
         "spaceData": {
             "spaceId": "spaces/van",
@@ -313,9 +313,9 @@
             "lat": 0,
             "lng": 0
         },
-        "altLat": "48.184120",
-        "altLng": "16.363380",
-        "altAddress": "TBA, Vienna"
+        "altLat": "48.210850",
+        "altLng": "16.365030",
+        "altAddress": "Strauchgasse 4, 1010 Vienna"
     },
     {
         "spaceName": "VBKÖ",
@@ -353,6 +353,25 @@
             "inactive": false,
             "lat": 48.19813,
             "lng": 16.35333
+        }
+    },
+    {
+        "spaceName": "Size Matters",
+        "spaceID": "size-matters",
+        "eventTitle": "SIZE MATTERS GOES PRIVATE",
+        "eventDetails": "Judith Augustinovic+Nayari Castillo-Rutz, Adnan Balčinović, Thomas Geiger, Ursula Hübner, Michael Klein+Sasha Pirker, Almut Reichenbach, Viktoria Schmid, Wiener Times, Gerlind Zeilner",
+        "eventWebsite": "",
+        "spaceData": {
+            "spaceId": "spaces/size-matters",
+            "uid": "size-matters",
+            "name": "Size Matters",
+            "district": 5,
+            "address": "Margaretenstraße 110",
+            "website": "http://www.sizematters.club/",
+            "prettyurl": "sizematters.club",
+            "inactive": false,
+            "lat": 48.189042,
+            "lng": 16.354464
         }
     }
 ]
